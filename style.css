@@ -56,7 +56,7 @@ gap: 0.6rem;
     text-transform: uppercase;
     background-color: white;
     letter-spacing: 1px;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     border: none;
     border-radius: 0.3rem;
 }
@@ -66,8 +66,9 @@ gap: 0.6rem;
     background-color: white;
     max-width: 300px;
     text-align: center;
-    margin: 2rem auto;
+    margin: 1rem auto;
     padding: 0.2rem;
+    border-radius: 0.3rem;
 }
 
 #msg
