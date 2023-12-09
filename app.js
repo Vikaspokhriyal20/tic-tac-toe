@@ -22,7 +22,6 @@ resetGame = () => {
     turnO = true;
     msgBox.classList.add('hide');
     enabledBox();
-
 }
 
 
@@ -31,11 +30,13 @@ boxes.forEach((box) => {
         console.log('box was clicked');
         if (turnO) {
             box.innerHTML = 'o';
+            box.classList.add('red');
             turnO = false;
         } else {
             box.innerHTML = 'x';
+            box.classList.add('yellow')
             turnO = true;
-        }
+        } 
         box.disabled = true;
 
         checkWinner();

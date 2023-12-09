@@ -64,16 +64,18 @@ gap: 0.6rem;
 .msg-container
 {
     background-color: white;
-    max-width: 300px;
+    max-width: 60vmin;
     text-align: center;
     margin: 1rem auto;
     padding: 0.2rem;
     border-radius: 0.3rem;
+    text-transform: uppercase;
+
 }
 
 #msg
 {
-    color: brown;
+    color: black;
 }
 
 .hide
@@ -81,4 +83,18 @@ gap: 0.6rem;
     display: none;
 }
 
+.yellow
+{
+    color: yellow;
+}
+.red
+{
+    color: red;
+}
 
+@media screen and (max-width:400px) {
+    .container
+    {
+        height: 50vh;
+    }
+}
