@@ -34,7 +34,7 @@ boxes.forEach((box) => {
             turnO = false;
         } else {
             box.innerHTML = 'x';
-            box.classList.add('yellow')
+            box.classList.add('blue')
             turnO = true;
         } 
         box.disabled = true;
@@ -58,7 +58,7 @@ const enabledBox = () => {
 
 
 const showWinner = (winner) => {
-    winningMsg.innerText = `Congratulations, Winner is ${winner}`;
+    winningMsg.innerText = ` Winner is ${winner}`;
     msgBox.classList.remove('hide');
     disabledBox();
 }
